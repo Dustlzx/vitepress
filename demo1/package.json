@@ -1,0 +1,17 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-prefix-selector": "^1.16.0",
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  }
+}
